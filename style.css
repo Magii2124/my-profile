@@ -1,0 +1,159 @@
+/* Google font family link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Universal Selector */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* Header Section */
+      header{
+        padding: 5px;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        font-family: "Roboto", sans-serif;
+        display:inline;
+        top:3px;
+        width: 100%;
+       position: fixed;
+     
+      }
+      nav{
+        margin: 10px;
+        font-family: "Roboto", sans-serif;
+
+      }
+      li{
+        padding: 9px;
+      }
+      p{
+        font-family: "Poppins", sans-serif; 
+      }
+      /* Container Section */
+      #container{
+        width: 800px;
+        margin:20px auto;
+      }
+      td,th{
+         padding: 15px;
+      }
+      table, tr, th, td {
+        border: 2px solid rgb(36, 6, 143);
+        border-collapse: collapse;
+      }
+      #resume{
+        color: rgb(19, 218, 66);
+        font-weight: bolder;
+      }
+      h2{
+      color: rgb(143, 6, 17);
+        font-style: italic;
+        font-family: "Roboto", sans-serif;
+        background-color: rgb(11, 13, 147);
+        margin-top: 20px;
+      }
+      #subtitle{
+        font-family: "Roboto", sans-serif;
+      }
+      .header-info{
+        margin-right: 40px;
+        margin-left: 10px;
+      }
+      #resume-text{
+        margin-left: 10px;
+      }
+      /* Navigation Section */
+#navSection{
+    padding: 5px;
+    
+    margin-bottom: 5px;
+    top: 20px;
+    position: fixed;
+    color: rgb(231, 29, 187);
+  }
+
+#navSection li{
+    display:inline;
+    margin-right: 30px;
+}
+#navSection a{
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+ 
+}
+     #nav{
+      text-align: center;
+     }
+      #home{
+        margin-top: 70px;
+      }
+      #project-txt{
+        padding: 30px;
+        margin: 20px;
+      }
+      .media{
+        margin: 10px;
+        padding: 5px; 
+      }
+      #techTable{
+     width: 50%;
+     font-family: "Poppins", sans-serif;
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+#project{
+  margin-top: 20px;
+}
+#listSummary,#Copyright{
+font-family: "Poppins", sans-serif;
+}
+#listSummary li{
+  list-style-type: none;
+}
+#listSummary li::marker{
+        content: "✍  ";
+      }
+.roles{
+  list-style-type: lower-alpha;
+}
+  .roles li{
+    padding-top: 8px;
+  }
+  #projectdesc::selection{
+    background-color: rgb(239, 6, 6);
+  }
+  #education{
+    padding-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+  }
+  #footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+  }
+  .whatsapp{
+    color: rgb(10, 189, 49);
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+  }
+  #chat{
+    font-size: 50px;
+    color: rgb(156, 9, 24);
+  }
+  
+  
+  .icon{
+    margin-right: 30px;
+    padding-left: 30px;
+    
+  }
+  #messege{
+    color: rgb(179, 5, 80);
+    bottom: 20px;
+    right: 80px;
+    position: fixed;
+    font-size: 50px;
+  }
