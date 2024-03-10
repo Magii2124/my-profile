@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            border-color: rgb(14, 14, 177);
+            border: 1px rgb(80, 184, 225);
+       
+
+                     
+            
+           
+          
+        }
+        html,body{
+            width: 100vw;
+            height: 110vh;
+           
+            background-color: whitesmoke;
+      
+        }
+        .card{
+            width: 30%;
+            height: 85%;
+            border: 3px solid rgb(5, 134, 63);
+            border-radius: 10px;
+            margin: 20px auto;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(242, 245, 245);
+            box-shadow: 2px rgb(5, 80, 151);
+        
+        }
+        h2{
+           
+            margin-left: 20px;
+            padding: 13px;
+            border-bottom: 1px solid rgb(136, 105, 248);
+            background-color: white;
+            
+        }
+        textarea{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(11, 15, 210);
+            color: whitesmoke;
+            border-radius: 10px;
+            width: 90%;
+            height: 250px;
+            margin: 24px auto;
+            padding: 20px;
+            font-size: 15px;
+            margin-left: 20px;
+        
+            
+        
+        }
+        label{
+            display: block;
+            font-weight: 700;
+            margin-left: 20px;
+            
+        }
+        .email input,.reason input{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: block;
+            width: 90%;
+            height: 30px;
+            border: 1px solid rgba(51, 77, 245, 0.208);
+            border-radius: 10px;
+            margin: 10px auto;
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+        .email span{
+            color: red;
+        }
+        .reason input{
+            height: 40px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            font-size: small;
+            font-weight: 600;
+          
+          
+        }
+        .reason{
+            border-bottom: 2px solid rgba(228, 222, 222, 0.208);
+            
+        }
+        .unsubscribe{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: absolute;
+            right: 450px;
+            bottom: 10px;
+            height: 17px;
+            width: 100px;
+            font-weight: 500;
+            border: 1px solid rgb(81, 89, 102);
+            border-radius: 3px;
+          
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Subscriber</h2>
+        <textarea name="" id="" cols="40" rows="10">`
+        We're sorry to see you go,but hey, no hard feeling, hopefully we will see you back one day 
+Please fill in your email address in order to unsubscribe from the list. 
+You will receive an email to conform your unsubscription, just to make sure this is not an accident or somebody else tries to unsubscribe you.
+        </textarea>
+        <div class="email">
+        <label for="email">Email <span>*</span></label>
+        <input type="email" name="email" id="">
+        </div>
+        <div class="reason">
+            <label for="reason">Unsubscribe reason</label>
+            <input type="text" placeholder="Unsubscribe reason">
+        </div>
+        <button class="unsubscribe">Unsubscribe</button>
+    </div>
+</body>
+</html>
